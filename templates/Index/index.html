@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>This is Index!</h1>
+    {% for section in sections %}
+        {% include section %}
+    {% endfor %}
+{% endblock %}
