@@ -4,15 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e1f7535-98f8-4965-ac6e-fc360b9c2b65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test_card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+    <list default="true" id="2e5f0bbf-6d14-472d-a8a6-96e3187456a1" name="alt1" comment="alt1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_card.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/new-env/Lib/site-packages/pip/_vendor/distlib/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/new-env/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_card/ICard.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_card/ICard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_card/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_card/card.py" afterDir="false" />
     </list>
+    <list id="4e1f7535-98f8-4965-ac6e-fc360b9c2b65" name="Default Changelist" comment="First version of page_card module." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vQYuawQj2oWZBVUYaCPjfgICdV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -142,11 +144,12 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\chuan\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4e1f7535-98f8-4965-ac6e-fc360b9c2b65" name="Default Changelist" comment="" />
+      <changelist id="2e5f0bbf-6d14-472d-a8a6-96e3187456a1" name="alt1" comment="" />
       <created>1626496002872</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -159,8 +162,25 @@
       <option name="project" value="LOCAL" />
       <updated>1626983900993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First version of page_card module.">
+      <created>1626984352057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626984352057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -176,7 +196,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="First version of page_card module." />
     <option name="LAST_COMMIT_MESSAGE" value="First version of page_card module." />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 
+# Interface is needed to assert dependencies
 class ICard(ABC):
     @abstractmethod
     def __init__(self, **attrs):

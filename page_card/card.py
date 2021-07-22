@@ -4,6 +4,7 @@ from page_card.ICard import ICard
 
 
 def HTML(f):
+    # Converts from card
     def convert_card(*arg):
         attr = arg[0]
         id_name = attr.pop('ID')
