@@ -4,14 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e5f0bbf-6d14-472d-a8a6-96e3187456a1" name="alt1" comment="alt1">
+    <list default="true" id="2e5f0bbf-6d14-472d-a8a6-96e3187456a1" name="alt1" comment="First version of page card system.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_card.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-env/Lib/site-packages/pip/_vendor/distlib/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/new-env/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_card/ICard.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_card/ICard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_card/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_card/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/projects.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/projects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/projects.py" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/projects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="4e1f7535-98f8-4965-ac6e-fc360b9c2b65" name="Default Changelist" comment="First version of page_card module." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,17 +52,17 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Buat AI\baseaiCompanyProfile\PageCard" />
-      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\templates" />
-      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile" />
-      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\templates\Index" />
-      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\templates\Layout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\Admin" />
       <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\API" />
       <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\View" />
+      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\templates\Index" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Buat AI\baseaiCompanyProfile\Lib" />
+      <recent name="D:\Buat AI\baseaiCompanyProfile\PageCard" />
+      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\templates" />
+      <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile" />
       <recent name="E:\Documents\Web Dev Files\baseaiCompanyProfile\templates\Index" />
     </key>
   </component>
@@ -76,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dummy">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baseaiCompanyProfile" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_card.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in D:/Buat AI/baseaiCompanyProfile/Test/test_card.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="baseaiCompanyProfile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_card.py" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.dummy" />
+        <item itemvalue="Python tests.Unittests in D:/Buat AI/baseaiCompanyProfile/Test/test_card.py" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python tests.Unittests in test_card.py" />
+        <item itemvalue="Python tests.Unittests in D:/Buat AI/baseaiCompanyProfile/Test/test_card.py" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626984352057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First version of page card system.">
+      <created>1626985847627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626985847627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -198,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="First version of page_card module." />
-    <option name="LAST_COMMIT_MESSAGE" value="First version of page_card module." />
+    <MESSAGE value="First version of page card system." />
+    <option name="LAST_COMMIT_MESSAGE" value="First version of page card system." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

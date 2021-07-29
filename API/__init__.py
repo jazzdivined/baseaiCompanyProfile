@@ -1,13 +1,17 @@
-from . import teams, projects, quiz
+from . import teams, projects, quiz, members
 
 
 def api_teams():
-    return teams.run()
+    return teams.TeamResource
 
 
-def api_quiz():
-    return projects.run()
+def api_members():
+    return members.MemberResource
 
 
 def api_projects():
-    return quiz.run()
+    return projects.run()
+
+
+def api_quiz():
+    return quiz.QuizResource
