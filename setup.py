@@ -2,7 +2,10 @@ from flask import Flask
 from flask_restful import Api, Resource
 from flask_sqlalchemy import SQLAlchemy
 import mysql.connector
+<<<<<<< HEAD
 import os
+=======
+>>>>>>> 4600a921d86e07c996b0f5bd9e4171510c2b825a
 
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
@@ -16,3 +19,4 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_POOL_RECYCLE'] = 30
 db = SQLAlchemy(app)
 current_path = os.getcwd()
+

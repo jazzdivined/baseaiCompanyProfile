@@ -19,6 +19,7 @@ app.add_url_rule('/register', view_func=register)
 app.add_url_rule('/projects', view_func=projects)
 
 app.add_url_rule('/admin/api/projects/', view_func=api_projects, methods=["GET", "POST"])
+
 api.add_resource(api_quiz(), '/admin/api/quiz/')
 api.add_resource(api_teams(), '/admin/api/teams/')
 api.add_resource(api_members(), '/admin/api/teams/<int:id>')
