@@ -1,0 +1,12 @@
+{
+    "name": "smile to unlock",
+    "description": "testing",
+    "show": true,
+    "images": [
+        {
+            "name": "title",
+            "path": "images/test.jpg"
+        }
+    ],
+    "technology": ["Python", "Arduino"]
+}

@@ -12,7 +12,7 @@ def api_members():
 
 
 def api_projects():
-    return projects.run()
+    return projects.ProjectResource
 
 
 def api_quiz():

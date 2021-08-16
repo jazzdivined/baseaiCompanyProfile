@@ -23,6 +23,9 @@ team_post_args = reqparse.RequestParser()
 team_post_args.add_argument("team_id", type=int, help="Team id is required", required=True)
 team_post_args.add_argument("team_name", type=str, help="Team name is required", required=True)
 
+team_delete_args = reqparse.RequestParser()
+team_delete_args.add_argument("team_id", type=int, help="Team id is required", required=True)
+
 team_fields = {
         'team_id': fields.Integer,
         'team_name': fields.String,
@@ -42,3 +45,17 @@ class TeamResource(Resource):
         db.session.add(team)
         db.session.commit()
         return team, 201
+
+    def delete(self):
+        args = team_delete_args.parse_args()
+        id = args['team_id']
+        
+        db.session.delete(self.__get_dict_from_id(id))
+        db.session.commit()
+        return "Deleted", 201
+
+    @staticmethod
+    def __get_dict_from_id(id):
+        return TeamModel.query.filter_by(team_id=id).first()
+
+
